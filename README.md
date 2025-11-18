@@ -28,11 +28,11 @@ With Arduino UNO board compatible, allows to transfer a MC-10/Alice Text BASIC (
 2/ Launch Arduino
 
 3/ In Arduino->Preferences->Additional Board Manager URLS
-    add >=2.0
-    https://raw.githubusercontent.com/Cyrillinux/Ardui89/refs/heads/main/Ardui89_package/package_ardui89_index.json
-        or >= V1.8.19 
+        add Arduino IDE >= V1.8.19 :
         https://sourceforge.net/projects/mc10duino/files/packages/package_mc-10_index.json
-    
+       add Arduino IDE >= V2 : 
+        https://github.com/Cyrillinux/MC-10Duino/releases/download/packages/package_mc-10_index.json
+        
     (NOT https://bacciel.com/tools/package_mc-10_index.json is OLD version)
     
 4/ In Tools->Boards:...->Board Manager
